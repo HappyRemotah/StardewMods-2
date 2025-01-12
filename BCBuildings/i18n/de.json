@@ -1,0 +1,53 @@
+{
+// Modulname
+"mod.name": "Better Crafting: Gebäude",
+"category.name": "Gebäude",
+
+// Rezepte
+"recipe.upgrade-house": "Bauernhaus aufwerten",
+"recipe.upgrade-house.desc": "Werte dein Haus sofort auf die nächste Stufe auf.",
+
+"recipe.upgrade-house.error-visitors": "@C{red}Du kannst dein Haus nicht aufwerten, solange sich jemand darin befindet.",
+"recipe.upgrade-house.error-upgraded": "@C{red}Du hast dein Haus bereits auf das maximale Level aufgewertet.",
+
+"error.not-buildable": "@C{red}Du kannst an deinem aktuellen Standort nicht bauen.",
+"error.cant-upgrade": "@C{red}Es gibt kein vorhandenes @B{{other}}@b, das aufgerüstet werden kann.",
+
+"error.unmet-condition": "@C{red}Du erfüllst eine Bedingung nicht, um dies zu bauen.",
+
+// Einstellungen
+"setting.cost": "Kostenmultiplikator",
+"setting.cost.desc": "Wenn du ein Gebäude mit BC: Gebäude (und nicht aus anderen Quellen) baust, werden die Baukosten um diesen Betrag angepasst, um günstiger oder teurer zu sein.",
+
+"setting.cost-additional": "Zusätzliche Kosten",
+"setting.cost-additional.tip": "Der Bau eines Gebäudes erfordert diese zusätzlichen Materialien. Einträge sollten eine durch Kommas getrennte Liste von Einträgen sein, wobei ein Eintrag mit der Menge beginnt, gefolgt von einem Doppelpunkt und dann einer gültigen Gegenstands-ID.",
+
+"setting.cost-material": "Mehraufwandssatz",
+"setting.cost-material.tip": "Der Bau eines Gebäudes erfordert so viel von den normalen Materialien. Auf 100% setzen für normale Kosten.",
+
+"setting.cost-currency": "Mehrwertsteuersatz",
+"setting.cost-currency.tip": "Der Bau eines Gebäudes erfordert so viel von der normalen Währung. Auf 100% setzen für normale Kosten.",
+
+"setting.refund": "Rückerstattung beim Abreißen",
+"setting.refund.desc": "Wenn du ein Gebäude mit BC: Gebäude (und nicht aus anderen Quellen) abreißt, erhältst du eine Rückerstattung der für den Bau aufgewendeten Materialien.",
+
+"setting.refund-material": "Rückerstattungsprozentsatz",
+"setting.refund-material.tip": "Du erhältst diesen Prozentsatz der Materialien zurück, wenn du ein Gebäude abreißt. Auf 0% setzen, um Materialrückerstattungen zu deaktivieren.",
+
+"setting.refund-currency": "Währungsprozentsatz",
+"setting.refund-currency.tip": "Du erhältst diesen Prozentsatz der Währung zurück, wenn du ein Gebäude abreißt. Auf 0% setzen, um Währungsrückerstattungen zu deaktivieren.",
+
+"setting.greenhouse-move": "Verschieben eines beschädigten Gewächshauses erlauben",
+"setting.greenhouse-move.tip": "Wenn aktiviert, kannst du das Gewächshaus mit BC: Gebäude verschieben, selbst bevor du es reparierst.",
+
+"setting.allow-house-upgrades": "Bauernhaus-Upgrades erlauben",
+"setting.allow-house-upgrades.tip": "Wenn aktiviert, kannst du dein Haus sofort mit BC: Gebäude aufrüsten.",
+
+"setting.allow-house-renovation": "Hausrenovierungen erlauben",
+"setting.allow-house-renovation.tip": "Wenn aktiviert, kannst du dein Haus sofort mit BC: Gebäude renovieren.",
+
+// Filter
+"filter.name": "Gebäude und Aktionen",
+"filter.about": "Diese Regel trifft auf Gebäude und Aktionen zu, die an Gebäuden durchgeführt werden."
+
+}
