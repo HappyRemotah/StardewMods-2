@@ -1,0 +1,458 @@
+{
+	// Settings
+  "setting.show-adv": "Erweiterte Handwerksinformationen anzeigen",
+  "setting.show-adv.tip": "Zeige erweiterte Handwerksinformationen an, wie z.B. wie viele Zutaten du hast und wie oft du ein Rezept bereits hergestellt hast. Dies entspricht der Standardeinstellung des Spiels und ist hier zur Bequemlichkeit dupliziert.",
+
+  "setting.use-per-save": "Pro-Speicherdaten verwenden",
+  "setting.use-per-save.tip": "Wenn dies aktiviert ist, werden deine Kategorien und Favoriten pro gespeichertem Spielstand verfolgt. Deaktiviere dies, um die gleichen Daten für alle deine Spielstände zu verwenden. Beachte, dass gesehene Rezepte immer pro Spielstand sind.",
+
+  "setting.general": "Allgemeine Optionen",
+
+  "setting.priority": "Menü-Handler-Priorität",
+  "setting.priority.tip": "Das Ändern der Menü-Handler-Priorität kann die Kompatibilität von Better Crafting mit anderen Mods verbessern. Wenn auf Niedrig eingestellt, wird Better Crafting seine Menülogik nach anderen Mods ausführen. Wenn auf Hoch eingestellt, wird Better Crafting seine Logik vor anderen Mods ausführen.",
+
+  "setting.priority.low": "Niedrig",
+  "setting.priority.normal": "Normal",
+  "setting.priority.high": "Hoch",
+
+  "setting.theme": "UI-Optik",
+  "setting.theme-desc": "Diese UI-Optik wird für die Schaltflächen von Better Crafting verwendet. Beachte, dass der Großteil der UI von Better Crafting aus den Standardspieltexturen gezogen wird.",
+
+  "setting.use-full-height": "Volle Höhe verwenden",
+  "setting.use-full-height.tip": "Wenn aktiviert, wird das Better Crafting-Menü erweitert, um die volle Höhe des Bildschirms zu nutzen, wenn es nicht im Spielmenü geöffnet ist.",
+
+  "theme.automatic": "Automatisch",
+  "theme.default": "Standard",
+
+  "setting.gift-taste-style": "Stil der Geschenkgeschmackanzeige",
+  "setting.gift-taste-style.heads": "Köpfe",
+  "setting.gift-taste-style.names": "Namen",
+  "setting.gift-taste-style.tip": "Wenn auf Köpfe eingestellt, werden Geschenkgeschmäcker anhand der Köpfe jedes Charakters angezeigt. Wenn auf Namen eingestellt, werden stattdessen ihre Namen angezeigt.",
+
+  "setting.gift-taste": "Geschenkgeschmäcker anzeigen",
+  "setting.gift-taste.tip": "Wenn dies aktiviert ist, werden bekannte Geschenkgeschmäcker in den Item-Tooltips zur Bequemlichkeit angezeigt. Übereinstimmende Geschenkgeschmäcker werden immer bei der Suche angezeigt.",
+  "setting.gift-taste.never": "Nie",
+  "setting.gift-taste.shift": "Beim Halten der Umschalttaste",
+  "setting.gift-taste.always": "Immer",
+
+  "setting.gift-taste-all": "Unentdeckte Geschenkgeschmäcker anzeigen",
+  "setting.gift-taste-all.tip": "Wenn dies aktiviert ist, zeigt Better Crafting alle Geschenkgeschmäcker an, selbst die, die du im Spiel noch nicht entdeckt hast. Da das etwas an Schummeln grenzt, ist es standardmäßig deaktiviert.",
+
+  "setting.alphabetic": "Alphabetisch sortieren",
+  "setting.alphabetic.tip": "Wenn dies aktiviert ist, werden Rezepte alphabetisch statt in der Standardreihenfolge sortiert.",
+
+  "setting.replace-crafting": "Handwerksmenü ersetzen",
+  "setting.replace-crafting.tip": "Wenn aktiviert, wird das Handwerksmenü durch eine Neuimplementierung ersetzt.",
+
+  "setting.replace-cooking": "Kochmenü ersetzen",
+  "setting.replace-cooking.tip": "Wenn aktiviert, wird das Kochmenü durch eine Neuimplementierung ersetzt.",
+
+  "setting.enable-categories": "Kategorien aktivieren",
+  "setting.enable-categories.tip": "Kategorietabs in Handwerksmenüs anzeigen, anstatt einer großen Liste von allem.",
+
+  "setting.new-recipes": "Neue Rezepte hervorheben",
+  "setting.new-recipes.tip": "Wenn dies aktiviert ist, wird auf neuen Rezepten ein 'NEU'-Label angezeigt.",
+  "setting.new-recipes.uncrafted": "Noch nicht hergestellt",
+  "setting.new-recipes.unseen": "Noch nicht gesehen",
+  "setting.new-recipes.disabled": "Deaktiviert",
+  
+  "setting.new-recipes.prismatic": "Prismatische 'NEU'-Label",
+  "setting.new-recipes.prismatic.tip": "Wenn aktiviert, wird das 'NEU'-Label auf Rezepten mit wechselnden Farben angezeigt.",
+
+  "setting.settings": "Einstellungs-Button anzeigen",
+  "setting.settings.tip": "Wenn aktiviert, wird dem Better Crafting-Menü ein Button zum Öffnen der Einstellungen von Better Crafting hinzugefügt.",
+
+  "setting.show-edit": "Button zum Bearbeiten von Kategorien anzeigen",
+  "setting.show-edit.tip": "Wenn aktiviert, erscheint ein Button zum Bearbeiten von Kategorien, wenn Kategorien bearbeitet werden können.",
+
+  "setting.bindings": "Hotkeys und Aktionen",
+  "setting.bindings.tip": "Einstellungen zu Eingaben und Tastenkombinationen.",
+
+  "setting.suppress": "Taste deaktivieren",
+  "setting.suppress.tip": "Wenn diese Taste gedrückt gehalten wird und du ein Handwerksmenü öffnest, wird Better Crafting das Menü nicht ersetzen.",
+
+  "setting.key.modifier": "Modifikatortaste",
+  "setting.key.modifier.tip": "Halte diese Taste gedrückt, um die Aktion einer anderen Taste zu ändern, wenn verfügbar.",
+
+  "setting.key.search": "Such-Taste",
+  "setting.key.search.tip": "Drücke diese Taste, um eine Suche zum Filtern der angezeigten Rezepte zu starten.",
+
+  "setting.key.favorite": "Favoriten-Taste",
+  "setting.key.favorite.tip": "Drücke diese Taste bei einem Rezept, um dieses Rezept zu favorisieren oder die Favorisierung aufzuheben.",
+
+  "setting.key.bulk": "Massenherstellung-Taste",
+  "setting.key.bulk.tip": "Drücke diese Taste bei einem Rezept, um das Menü für die massenhafte Herstellung von Gegenständen oder Gerichten des jeweiligen Rezeptes zu öffnen.",
+
+  "setting.key.behavior.left": "Linksklick / A-Verhalten",
+  "setting.key.behavior.left.tip": "Beim Linksklick (oder Drücken von A auf dem Controller) auf ein Rezept wird diese Aktion ausgeführt.",
+  "setting.key.behavior.right": "Rechtsklick / X-Verhalten",
+  "setting.key.behavior.right.tip": "Beim Rechtsklick (oder Drücken von X auf dem Controller) auf ein Rezept wird diese Aktion ausgeführt.",
+
+  "setting.key.tooltip": "Hotkeys in Tool-Tipps anzeigen",
+  "setting.key.tooltip.tip": "Wenn aktiviert, werden Hotkeys am unteren Rand der Tool-Tipps von Better Crafting angezeigt.",
+
+  "setting.show-matching-items": "Übereinstimmende Gegenstände anzeigen",
+  "setting.show-matching-items.never": "Niemals",
+  "setting.show-matching-items.always": "Immer",
+  "setting.show-matching-items.fuzzy": "Unklare Zutaten",
+  "setting.show-matching-items.fuzzy-quality": "Unklare / Hochwertige Zutaten",
+  "setting.show-matching-items.tip": "Ob die Liste der zu verbrauchenden Gegenstände beim Herstellen eines Gegenstandes in den Tool-Tipps von Better Crafting angezeigt wird. 'Unklar' bedeutet hier eine Zutat, die mehr als einem Gegenstand entsprechen kann, wie 'Ei (beliebig)'. Hochwertig bedeutet jeder Gegenstand mit einer höheren Qualität als der Basisqualität.",
+
+  "setting.source-mod": "Quellmod in Tool-Tipps anzeigen",
+  "setting.source-mod.tip": "Wenn aktiviert, wird der Mod, der einen bestimmten Gegenstand hinzugefügt hat, am unteren Rand der Tool-Tipps von Better Crafting angezeigt.",
+
+  "setting.enforce-multiplayer": "Multiplayer-Balance erzwingen",
+  "setting.enforce-multiplayer.tip": "Wenn aktiviert, können einige Einstellungen, die als 'schummelnd' angesehen werden könnten, nur vom Multiplayer-Host kontrolliert werden. Dies gilt für 'Müll zurückgewinnen', Recycling und das Anzeigen von Geschenkvorlieben.",
+
+  "setting.ttwhen.Never": "Niemals",
+  "setting.ttwhen.ForController": "Beim Verwenden eines Controllers",
+  "setting.ttwhen.Always": "Immer",
+
+  "setting.action.None": "Nichts",
+  "setting.action.Craft": "Herstellen",
+  "setting.action.Favorite": "Favorit umschalten",
+  "setting.action.BulkCraft": "Massenherstellung",
+  "setting.action.BulkCook": "Massenkochen",
+
+  "setting.invalid-storage-types": "Unzulässige Aufbewahrungstypen",
+  "setting.invalid-storage-types.tip": "Dies ermöglicht es dir, bestimmte Arten von Speicherobjekten (Truhen, Trichter usw.) von der Nutzung auszuschließen.",
+
+  "setting.disable-fish-sources": "Keine Fischbehälter und -teiche verwenden",
+  "setting.disable-fish-sources.tip": "Wenn dies aktiviert ist, wird Better Crafting versuchen, niemals Fischbehälter oder Fischteiche als Quellen für Gegenstände zum Herstellen zu verwenden. Bitte beachte, dass dies in einigen Fällen je nach der Art und Weise, wie andere Mods diese für Better Crafting bereitstellen, möglicherweise nicht funktioniert.",
+
+  "setting.nearby": "Erweiterte Werkbank",
+  "setting.nearby.tip": "Diese Funktion ermöglicht es Werkbänken und deiner Küche, mehr Truhen gleichzeitig zu verbinden und verbessert die Standardreichweite des Spiels von einem Block. Du kannst Ketten von verbundenen Truhen erstellen oder zugelassene Verbinder verwenden, um Lücken zu überbrücken.",
+
+  "setting.nearby.enable": "Erweiterte Werkbank aktivieren",
+
+  "setting.nearby.nearby": "Nahegelegene Truhen verwenden",
+  "setting.nearby.nearby.tip": "Wenn dieser Wert größer als Null ist, kannst du immer Gegenstände in Truhen bis zu dieser Anzahl an Kacheln Entfernung verwenden.",
+
+  "setting.nearby.nearby.active": "Überall",
+  "setting.nearby.nearby.map": "Gesamte Karte",
+
+  "setting.nearby.nearby.off": "Deaktiviert",
+  "setting.nearby.nearby.tiles": "{{tiles}} Kacheln",
+
+  "setting.nearby.diagonal": "Diagonale Verbindungen erlauben",
+  "setting.nearby.diagonal.tip": "Wenn aktiviert, können Truhen und Verbinder diagonal platziert werden und sind weiterhin verbunden.",
+
+  "setting.nearby.performance": "Leistung",
+  "setting.nearby.performance.tip": "Einstellungen, die den Umfang der erweiterten Werkbank begrenzen, um die Leistung zu verbessern.",
+
+  "setting.nearby.max-chests": "Maximale Inventare",
+  "setting.nearby.max-chests.tip": "Die maximale Anzahl von Inventaren, die eine Werkbank verwenden wird.",
+
+  "setting.nearby.max-distance": "Maximale Entfernung",
+  "setting.nearby.max-distance.tip": "Die maximale Entfernung, die ein Inventar von der Werkbank entfernt sein kann.",
+
+  "setting.nearby.max-check": "Maximale Überprüfungen",
+  "setting.nearby.max-check.tip": "Die maximale Anzahl von Kacheln, die beim Entdecken nahegelegener Inventare überprüft werden.",
+
+  "setting.nearby.connectors": "Erlaubte Verbinder",
+  "setting.nearby.connectors.tip": "Platzierbare Objekte, die als Verbinder verwendet werden können. Sie sollten unnötige Verbindungstypen vermeiden, um die Leistung zu erhalten. Bitte beachten Sie, dass diese Einträge Beispiele sind und Sie Ihre Konfigurationsdatei manuell bearbeiten können, um andere Objekte und Geländefeatures hinzuzufügen.",
+
+  "setting.nearby.floors": "Böden",
+  "setting.nearby.fences": "Zäune",
+  "setting.nearby.other": "Andere Beispiele",
+  
+  "setting.recover-trash": "Müll wiederherstellen",
+  "setting.recover-trash.about": "Wenn dies aktiviert ist, können Sie mit einem Rechtsklick auf Ihren Mülleimer ein Menü öffnen, um entsorgte Gegenstände wiederherzustellen. Bitte beachten Sie, dass das Menü nur bis zu 36 Gegenstände gleichzeitig speichern kann.",
+
+  "setting.recycle": "Recycling",
+  "setting.recycle.about": "Wenn dies aktiviert ist, können Sie das Handwerksmenü verwenden, um Gegenstände zu recyceln und die verwendeten Materialien zurückzubekommen.",
+
+  "setting.recycle.higher-quality": "Höhere Qualität erlauben",
+  "setting.recycle.higher-quality.tip": "Wenn dies aktiviert ist, können Sie einen Gegenstand recyceln, wenn er von höherer Qualität ist als das Rezept vorgibt. Sie können niemals einen Gegenstand von geringerer Qualität recyceln als das Rezept vorgibt.",
+
+  "setting.recycle.fuzzy": "Unschärfe bei Gegenstandsabgleich",
+  "setting.recycle.fuzzy.tip": "Einige Handwerksrezepte erfordern keine spezifischen Gegenstände, sondern passen zu Dingen wie \"Ei (Beliebig)\". Standardmäßig werden diese nicht zurückgegeben. Wenn dies aktiviert ist, wird der billigste passende Gegenstand in solchen Fällen zurückgegeben.",
+
+  "setting.recycle.unknown": "Unbekannte Rezepte erlauben",
+  "setting.recycle.unknown.tip": "Wenn dies aktiviert ist, können Sie Gegenstände recyceln, selbst wenn Sie das Handwerksrezept dafür nicht freigeschaltet haben.",
+
+  "setting.recycle.crafting": "Handwerksrecycling",
+  "setting.recycle.crafting.tip": "Ob Recycling beim Handwerken erlaubt sein soll oder nicht.",
+
+  "setting.recycle.cooking": "Kochrecycling",
+  "setting.recycle.cooking.tip": "Ob Recycling beim Kochen erlaubt sein soll oder nicht.",
+
+  "setting.recycle-mode.enabled": "Immer",
+  "setting.recycle-mode.disabled": "Niemals",
+  "setting.recycle-mode.automatic": "Automatisch (Beim Halten eines recycelbaren Gegenstands)",
+
+"setting.recycle.click-toggle": "Klicken zum Umschalten",
+"setting.recycle.click-toggle.tip": "Wenn dies aktiviert ist, wird durch Klicken auf den Mülleimer im Handwerksmenü das Recycling ein- oder ausgeschaltet. Dies funktioniert nur, wenn kein Gegenstand gehalten wird.",
+
+"setting.transfer": "In Lager transferieren",
+"setting.transfer.about": "Diese Funktion ermöglicht es Ihnen, Gegenstände schnell von Ihrem Inventar in Truhen zu lagern, die mit einer Werkbank oder Ihrer Küche verbunden sind. Passende Gegenstände werden in geeignete Truhen gelegt, ähnlich wie bei 'Zu bestehenden Stapeln hinzufügen'.",
+
+"setting.transfer.enable": "Transfer zu Lager aktivieren",
+
+"setting.transfer.action": "Aktion ({{binding}})",
+"setting.transfer.action-modifier": "Aktion mit Modifikator",
+"setting.transfer.use-tool": "Werkzeug verwenden ({{binding}})",
+"setting.transfer.use-tool-modifier": "Werkzeug mit Modifikator verwenden",
+
+"setting.transfer.behavior": "Modus",
+
+"setting.transfer.behavior.none": "Nichts tun",
+"setting.transfer.behavior.all": "Alles transferieren",
+"setting.transfer.behavior.all-quantity": "Alles transferieren außer Menge",
+"setting.transfer.behavior.quantity": "Menge transferieren",
+"setting.transfer.behavior.half": "Hälfte transferieren",
+
+"setting.transfer.quantity": "Menge",
+"setting.transfer.quantity.tip": "Die zu transferierende Menge bei Verwendung von 'Menge transferieren' oder die Menge, die zurückgelassen wird, wenn 'Alles transferieren außer Menge' verwendet wird.",
+
+"setting.cookout": "Cookout-Kit-Anpassungen",
+"setting.cookout.about": "Diese Einstellungen passen das Verhalten von Cookout-Kits an, sodass sie sich mehr wie Werkbänke verhalten.",
+
+"setting.cookout.workbench": "Werkbank-ähnliche Konnektivität",
+"setting.cookout.workbench.tip": "Wenn aktiviert, ziehen Koch-Sets Materialien aus nahegelegenen Behältern, genau wie Werkbänke es können.",
+
+"setting.cookout.durable": "Langlebige Sets",
+"setting.cookout.durable.tip": "Wenn aktiviert, verschwinden Koch-Sets nicht über Nacht und sie verschwinden nicht, wenn Sie sie zerbrechen.",
+
+"setting.cookout.expensive": "Teurere Kits",
+"setting.cookout.expensive.tip": "Wenn aktiviert, wird das Handwerksrezept für Koch-Sets angepasst, um sie etwas teurer zu machen, um die erhöhte Langlebigkeit auszugleichen.",
+
+  // Qualität
+"setting.quality": "Qualität",
+"setting.quality.tip": "Bitte beachten Sie, dass einige Rezepte, die von anderen Quellen hinzugefügt wurden, wie SpaceCore, diese Einstellungen aufgrund von API-Einschränkungen möglicherweise nicht respektieren.",
+
+"setting.enable-quality": "Qualitätslimit aktivieren",
+"setting.enable-quality.tip": "Wenn aktiviert, wird eine Schaltfläche angezeigt, mit der Sie eine maximale Qualität der zu verwendenden Gegenstände beim Handwerken wählen können.",
+
+"setting.sort-quality": "Niedrige Qualität zuerst verwenden",
+"setting.sort-quality.tip": "Wenn aktiviert, werden Rezepte zuerst mit Gegenständen niedrigerer Qualität hergestellt.",
+
+// Handwerk
+"setting.crafting": "Handwerk",
+"setting.crafting.tip": "Diese Einstellungen gelten speziell für das neu implementierte Handwerksmenü.",
+
+"setting.uniform-grid": "Einheitliche Größen erzwingen",
+"setting.uniform-grid.tip": "Wenn aktiviert, werden große Icons herstellbarer Gegenstände verkleinert, um in eine einzelne Reihe zu passen.",
+
+"setting.big-craftables-last": "Große herstellbare Gegenstände zuletzt sortieren",
+"setting.big-craftables-last.tip": "Wenn aktiviert, werden alle großen herstellbaren Gegenstände am Ende der Liste platziert.",
+
+// Kochen
+"setting.cooking": "Kochen",
+"setting.cooking.tip": "Diese Einstellungen gelten speziell für das neu implementierte Kochmenü.",
+
+"setting.seasoning": "Gewürze verwenden",
+"setting.seasoning.tip": "Ob Gewürze verwendet werden sollen, um gekochte Gegenstände zu verbessern. Wenn auf 'Nur Inventar' gesetzt, werden Gewürze nur aus Ihrem Inventar und nicht aus dem Kühlschrank oder anderen Quellen verwendet.",
+
+"seasoning.disabled": "Niemals",
+"seasoning.enabled": "Immer",
+"seasoning.inventory": "Nur Inventar",
+
+"seasoning.used-last": "Sie haben alle Ihre {{item}} aufgebraucht.",
+"seasoning.generic": "Gewürz",
+
+"setting.show-unknown": "Unbekannte Rezepte anzeigen",
+"setting.show-unknown.tip": "Wenn aktiviert, werden Rezepte, die Sie noch nicht gelernt haben, im Menü angezeigt, ähnlich wie unbekannte Kochrezepte.",
+
+"setting.hide-unknown": "Unbekannte Rezepte ausblenden",
+"setting.hide-unknown.tip": "Wenn aktiviert, werden Rezepte, die Sie noch nicht gelernt haben, nicht im Menü angezeigt.",
+
+  // Tool-Tipps
+"tooltip.loves": "Liebt: {{npcs}}",
+"tooltip.likes": "Mag: {{npcs}}",
+
+"tooltip.copy-cat": "Kategorie in die Zwischenablage kopieren",
+"tooltip.paste-cat": "Kategorie aus der Zwischenablage einfügen",
+"tooltip.trash-cat": "Kategorie löschen",
+"tooltip.trash-cat.confirm": "Sind Sie sicher, dass Sie die Kategorie \"{{name}}\" löschen möchten?",
+
+"tooltip.trash-all": "Kategorien auf Standard zurücksetzen",
+"tooltip.trash-all.confirm": "Sind Sie sicher, dass Sie alle Ihre Kategorien auf die Standardwerte zurücksetzen möchten?",
+
+"tooltip.move-up": "Kategorie nach oben verschieben",
+"tooltip.move-down": "Kategorie nach unten verschieben",
+
+"tooltip.crafted": "{{count}} Mal hergestellt",
+"tooltip.cooked": "{{count}} Mal gekocht",
+
+"tooltip.toggle-recipe": "In Kategorie umschalten",
+"tooltip.use-as-icon": "Als Symbol verwenden",
+
+"tooltip.transfer.to": "Gegenstände in Lager hinzufügen",
+"tooltip.transfer.to-item": "Gehaltenen Gegenstand in Lager hinzufügen",
+
+"tooltip.transfer.from": "Gegenstände aus Lager auffüllen",
+"tooltip.transfer.from-item": "Gehaltenen Gegenstand aus Lager auffüllen",
+
+"tooltip.transfer.all": "Alles transferieren",
+"tooltip.transfer.but-quantity": "Alles außer {{count}} transferieren",
+"tooltip.transfer.half": "Hälfte transferieren",
+"tooltip.transfer.quantity": "{{count}} transferieren",
+
+"tooltip.edit-filter-locked": "Einzelne Rezepte können nicht aktiviert oder deaktiviert werden, wenn dynamische Regeln für eine Kategorie verwendet werden. Bitte passen Sie Ihre Regeln an oder deaktivieren Sie die dynamischen Regeln.",
+
+  // Recycling
+"tooltip.recycle": "Recyceln {{item}}",
+"tooltip.recycle.invalid": "Sie können diesen Gegenstand nicht recyceln.",
+"tooltip.recycle.insufficient": "Sie benötigen mindestens {{count}} von diesem Gegenstand, um ihn zu recyceln.",
+"tooltip.recycle.returns": "Rückgaben:",
+"tooltip.recycle.not-returned": "Nicht zurückgegeben:",
+"tooltip.recycle.all": "Alles recyceln ({{amount}})",
+"tooltip.recycle.once": "Einige recyceln ({{amount}})",
+
+// Schaltflächen
+"tooltip.edit-mode": "Kategorien bearbeiten",
+"tooltip.favorites": "Nur Favoriten anzeigen",
+"tooltip.seasoning": "Gewürze verwenden",
+"tooltip.uniform": "Einheitliches Raster verwenden",
+"tooltip.settings": "Einstellungen öffnen",
+
+"tooltip.filter.enabled": "Dynamische Regeln: Aktiviert",
+"tooltip.filter.disabled": "Dynamische Regeln: Deaktiviert",
+"tooltip.filter.about": "Damit können Sie Kategorien basierend auf Regeln erstellen, anstatt einzelne Rezepte manuell auszuwählen.",
+
+"tooltip.include-in-misc": "In Verschiedenes einbeziehen: Aktiviert",
+"tooltip.include-in-misc.disabled": "In Verschiedenes einbeziehen: Deaktiviert",
+"tooltip.include-in-misc.about": "Normalerweise wird ein Rezept nicht in der Kategorie Verschiedenes angezeigt, wenn es sich in einer anderen Kategorie befindet. Aktivieren Sie dies, um Rezepte in dieser Kategorie auch in der Kategorie Verschiedenes anzuzeigen.",
+
+"tooltip.search": "Rezepte suchen",
+"tooltip.search.old-tip": "Tipp: Beginnen Sie Ihre Suche mit @B{{prefix}}@b, um auch nach Zutaten zu suchen. Beginnen Sie Ihre Suche mit @B{{likes}}@b, um auch nach Charakteren zu suchen, die einen Gegenstand mögen, oder @B{{loves}}@b, um auch nach Charakteren zu suchen, die einen Gegenstand lieben.",
+"tooltip.search.tip": "Modifikatoren: Beginnen Sie Ihre Suche mit den folgenden Zeichen, um auch nach:\n\n @B{{prefix}}@b: Zutaten\n @B{{likes}}@b: Charakteren, die mögen\n @B{{loves}}@b: Charakteren, die lieben \n zu suchen",
+
+"search.ingredient-prefix": "!",
+"search.like-prefix": "#",
+"search.love-prefix": "^",
+
+"search.none": "Es gibt keine passenden Rezepte.",
+"search.none.category": "Es gibt keine passenden Rezepte in dieser Kategorie.",
+
+"tooltip.select-icon": "Symbol auswählen",
+
+"tooltip.quality.none": "Nur Gegenstände niedriger Qualität verwenden.",
+"tooltip.quality.silver": "Nur Gegenstände niedriger und silberner Qualität verwenden.",
+"tooltip.quality.gold": "Nur Gegenstände niedriger, silberner und goldener Qualität verwenden.",
+"tooltip.quality.iridium": "Gegenstände jeder Qualität verwenden.",
+
+"tooltip.quality-unsupported": "Dieses Rezept unterstützt keine Qualitätseinstellungen.",
+
+"ingredient.error": "Ungültige Zutat",
+
+"error.locking": "Einige Inventare können nicht zugegriffen werden.",
+"error.crafting": "Beim Versuch zu handwerken ist ein Fehler aufgetreten.",
+"error.crafting.source": "Die Mod '{{source}}' hat einen Fehler verursacht, als versucht wurde, etwas herzustellen.",
+"error.pasting": "Kategorie konnte nicht eingefügt werden.",
+
+  // Massenherstellung
+"bulk.crafting": "Massenherstellung",
+"bulk.craftable": "{{count}} herstellbar",
+"bulk.craft": "Stelle {{count}} von {{name}} her",
+"bulk.cooking": "Massenkochen",
+"bulk.cookable": "{{count}} kochbar",
+"bulk.cook": "Koche {{count}} von {{name}}",
+
+// Kategorien
+"category.new": "Neue Kategorie",
+"category.favorites": "Favoriten",
+"category.combat_rings": "Kampf und Ringe",
+"category.consumables": "Verbrauchsmaterial",
+"category.decoration": "Dekoration",
+"category.fertilizer_seeds": "Dünger und Samen",
+"category.fishing": "Fischen",
+"category.machinery": "Maschinen",
+"category.misc": "Verschiedenes",
+
+"category.food.farming": "Landwirtschaft und Sammeln",
+"category.food.mining": "Bergbau und Magnetismus",
+"category.food.fishing": "Fischen",
+"category.food.combat": "Kampf",
+"category.food.other": "Glück, Geschwindigkeit und Anderes",
+
+// Währungen
+"currency.gold": "Gold",
+"currency.festival-points": "Punkte",
+"currency.club-coins": "Club-Münzen",
+"currency.qi-gems": "Qi-Edelsteine",
+
+// Zutat / Gegenstand Kategorien
+"item.category.equipment": "Ausrüstung",
+"item.category.cooking": "Kochen (beliebig)",
+"item.category.crafting": "Herstellung (beliebig)",
+"item.category.mineral": "Mineral (beliebig)",
+"item.category.meat": "Fleisch (beliebig)",
+"item.category.fertilizer": "Dünger (beliebig)",
+"item.category.junk": "Müll (beliebig)",
+"item.category.seeds": "Samen (beliebig)",
+"item.category.fruit": "Obst (beliebig)",
+"item.category.flower": "Blume (beliebig)",
+
+  // Dynamische Filter
+"filter.add-new": "Neue Regel hinzufügen",
+"filter.from-rule": "Durch Regel aktiviert",
+
+"filter.include-toggle": "In Kategorie einschließen",
+"filter.include-toggle.about": "Ob Rezepte, die dieser Regel entsprechen, in die Kategorie einbezogen oder daraus ausgeschlossen werden sollen.",
+
+"filter.storage": "Lagerung",
+"filter.storage.about": "Diese Regel trifft auf Gegenstände zu, die als Lager dienen, wie Truhen oder Trichter.",
+
+"filter.everything": "Alles",
+"filter.everything.about": "Diese Regel trifft auf jedes Rezept zu.",
+
+"filter.new-buff": "Buff",
+"filter.new-buff.about": "Diese Regel trifft auf Gegenstände zu, die beim Konsumieren einen bestimmten Buff geben.",
+
+"filter.uncrafted": "Noch nicht hergestellt",
+"filter.uncrafted.about": "Diese Regel trifft auf Gegenstände zu, die Sie noch nicht hergestellt haben.",
+
+"filter.search": "Suche",
+"filter.search.about": "Diese Regel vergleicht Gegenstände mit einer Suche, die denselben Regeln wie das Herstellungsmenü folgt.",
+
+"filter.provider": "Rezeptanbieter",
+"filter.provider.about": "Diese Regel trifft auf alle Rezepte zu, die von einem bestimmten Anbieter bearbeitet werden. Dies ist für Entwickler-/Debugging-Zwecke gedacht.",
+
+"filter.mod": "Gegenstände aus Mod",
+"filter.mod.about": "Diese Regel versucht, alle Rezepte abzugleichen, die von einer bestimmten Mod hinzugefügt wurden.",
+
+"filter.gift-taste": "Geschenkgeschmack: {{taste}}",
+"filter.gift-taste.about": "Diese Regel versucht, Gegenstände zu finden, die ein NPC {{taste}}. Dies zeigt nur bekannte Geschmäcker an, es sei denn, Sie haben Unentdeckte Geschenkgeschmäcker anzeigen aktiviert.",
+"filter.gift-taste.likes": "Mag",
+"filter.gift-taste.loves": "Liebt",
+"filter.gift-taste.dislikes": "Mag nicht",
+"filter.gift-taste.hates": "Hasst",
+
+"filter.machine": "Maschinen",
+"filter.machine.about": "Diese Regel trifft auf Gegenstände zu, die als Maschinen fungieren, Gegenstände verarbeiten oder eine andere Funktion ausführen.",
+
+"filter.sprinkler": "Sprinkler",
+"filter.sprinkler.about": "Diese Regel trifft auf Sprinkler zu.",
+
+"filter.floors": "Böden und Wege",
+"filter.floors.about": "Diese Regel trifft auf alle Boden- und Weggegenstände zu.",
+
+"filter.fences": "Zäune",
+"filter.fences.about": "Diese Regel trifft auf alle Zaungegenstände zu.",
+
+"filter.furniture": "Möbel",
+"filter.furniture.about": "Diese Regel trifft auf alle Möbelgegenstände zu.",
+
+"filter.light": "Licht",
+"filter.light.about": "Diese Regel trifft auf platzierbare Lichter zu.",
+
+"filter.error": "Ungültige Regel",
+"filter.error.about": "Diese Regel-ID ist ungültig oder nicht registriert und könnte von einer entfernten Mod stammen.",
+
+"filter.category": "Kategorie",
+"filter.category.about": "Diese Regel trifft auf Gegenstände innerhalb einer bestimmten Kategorie zu.",
+
+"filter.context-tag": "Kontext-Tag",
+"filter.context-tag.about": "Diese Regel trifft auf Gegenstände mit einem bestimmten Kontext-Tag zu.",
+
+"filter.edible": "Essbar",
+"filter.edible.about": "Diese Regel trifft auf essbare Gegenstände zu.",
+
+"filter.recipe-count": "{{count}} Rezepte",
+
+// Küche
+"station.kitchen": "Küche"
+
+}
